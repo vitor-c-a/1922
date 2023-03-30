@@ -101,6 +101,7 @@ button{
 button:hover{
     background-color:#cc0000;
     color:#FFF0F5;
+    transform: scale(1.1);
 }
 
 #container-cards{
@@ -110,7 +111,7 @@ button:hover{
 #cards-actor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 7px;
+    column-gap: 35px;
 }
 
 .actor{
@@ -127,6 +128,7 @@ button:hover{
 
 .actor:hover{
     color:#cc0000;
+    transform:scale(1.02);
 }
 
 .Wilfred{

@@ -95,9 +95,67 @@ button{
     position:relative;
     top:10px;
     transition:1s;
+    font-weight:bold;
 }
 
 button:hover{
     background-color:#cc0000;
     color:#FFF0F5;
+}
+
+#container-cards{
+    height:700px;
+}
+
+#cards-actor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 7px;
+}
+
+.actor{
+    height:600px;
+    color: #FFF0F5;
+    font-size:25px;
+    font-weight:bold;
+    padding-left: 15px;
+    border-radius:20px;
+    display: flex;
+    flex-direction:column-reverse;
+    transition: 1s;
+}
+
+.actor:hover{
+    color:#cc0000;
+}
+
+.Wilfred{
+    background-image:url(imagens/Wilfred-home.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+
+}
+
+.Henry{
+    background-image:url(imagens/Henry-home.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 30% 30%;
+}
+
+.Arlette{
+    background-image:url(imagens/Arlette-home.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 20% 20%;
+}
+
+footer{
+    height:200px;
+    font-size: 25px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
 }

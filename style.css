@@ -6,8 +6,8 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Fasthand', cursive;
-    background-color: #000;
-    color: #fff;
+    background-color:#FFF0F5;
+    color: #000;
 }
 
 header{
@@ -47,10 +47,9 @@ li:hover{
 }
 
 #banner{
-background-image:url(elenco/banner.jpg);
-width: 100%;
-height: 400px;
+background-image: url(imagens/banner.jpg);
+width: 1515px;
+height:665px;
 background-repeat: no-repeat;
-background-size: cover;
-background-position: 50% 50%;
+background-size:cover;
 }

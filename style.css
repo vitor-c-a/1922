@@ -6,8 +6,8 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Fasthand', cursive;
-    background-color:#FFF0F5;
-    color: #000;
+    background-color:#000;
+    color: #FFF0F5;
 }
 
 header{
@@ -48,8 +48,56 @@ li:hover{
 
 #banner{
 background-image: url(imagens/banner.jpg);
-width: 1515px;
+width: 1519px;
 height:665px;
 background-repeat: no-repeat;
 background-size:cover;
+}
+
+#container-TS{
+    display: flex;
+    justify-content: space-between;
+}
+
+video{
+    width: 45%;
+    height:390px;
+}
+
+#description{
+    width: 50%;
+    height:390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+
+#synopsis{
+    width:100%;
+    font-size: 32px;
+}
+
+button{
+    width:250px;
+    height:70px;
+    font-size:30px;
+    background-color:#FFF0F5;
+    color: #000;
+    border:none;
+    cursor:pointer;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    position:relative;
+    top:10px;
+    transition:1s;
+}
+
+button:hover{
+    background-color:#cc0000;
+    color:#FFF0F5;
 }

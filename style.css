@@ -30,13 +30,13 @@ ul{
 
 }
 
-li{
+.nav{
     cursor:pointer;
     transition:1s;
 
 }
 
-li:hover{
+.nav:hover{
     color:rgb(204, 0, 0);
 }
 
@@ -47,11 +47,40 @@ li:hover{
 }
 
 #banner{
-background-image: url(imagens/banner.jpg);
-width: 1519px;
-height:665px;
+background-image: url(imagens/banner-3.jpg);
+background-size: cover;
+width:45%;
+height:400px;
 background-repeat: no-repeat;
-background-size:cover;
+
+}
+
+.container-details{
+display:flex;
+
+}
+
+.details{
+    height:400px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+    position: relative;
+    left:70px;
+}
+
+
+.information{
+    font-size:30px;
+    padding-left: 10px;
+    width:500px;
+    height: 50px;
+    background-color: #cc0000;
+    border-radius: 10px;
+
 }
 
 #container-TS{
@@ -96,11 +125,13 @@ button{
     top:10px;
     transition:1s;
     font-weight:bold;
+
 }
 
 button:hover{
     background-color:#cc0000;
     color:#FFF0F5;
+    transform: scale(1.1);
 }
 
 #container-cards{
@@ -127,6 +158,7 @@ button:hover{
 
 .actor:hover{
     color:#cc0000;
+    transform: scale(1.02);
 }
 
 .Wilfred{

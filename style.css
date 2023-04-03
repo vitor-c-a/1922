@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Fasthand', cursive;
+    font-family: 'Alkatra', cursive;
     background-color:#000;
     color: #FFF0F5;
 }
@@ -56,20 +56,22 @@ background-repeat: no-repeat;
 }
 
 .container-details{
+height: 400px;
 display:flex;
+column-gap: 70px;
 
 }
 
 .details{
     height:400px;
+
 }
 
 .items{
     display: flex;
     flex-direction: column;
     row-gap: 13px;
-    position: relative;
-    left:70px;
+
 }
 
 
@@ -99,19 +101,17 @@ video{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-
 }
 
 #synopsis{
     width:100%;
-    font-size: 32px;
+    font-size: 25px;
 }
 
 button{
     width:250px;
     height:70px;
-    font-size:30px;
+    font-size:25px;
     background-color:#FFF0F5;
     color: #000;
     border:none;
@@ -121,11 +121,8 @@ button{
     justify-content: center;
     align-items: center;
     padding: 8px 10px;
-    position:relative;
-    top:10px;
     transition:1s;
     font-weight:bold;
-
 }
 
 button:hover{
@@ -190,4 +187,53 @@ footer{
     justify-content:space-between;
     align-items:center;
     flex-direction:column;
+}
+
+.navigation-footer{
+    display: none;
+}
+
+@media(max-width:1080px){
+    .navigation-header{
+        display: none;
+    }
+    .navigation-footer{
+        display:block;
+    }
+    .container-details{
+        display: fle;
+        flex-direction: column;
+        width:768px;
+        height: 850px;
+    }
+    #banner{
+        background-image:url(imagens/banner-3.jpg);
+        width:100%;
+        height:400px;
+        background-size:cover;
+    }
+    .details{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .items{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .information{
+        width:95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-TS{
+        display: flex;
+        flex-direction: column;
+    }
 }

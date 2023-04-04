@@ -5,7 +5,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Alkatra', cursive;
+    font-family: 'Alkatra';
     background-color:#000;
     color: #FFF0F5;
 }
@@ -24,7 +24,7 @@ nav{
 
 ul{
     width: 100%;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     justify-content: space-between;
 
@@ -41,7 +41,7 @@ ul{
 }
 
 
-#logo{
+.logo{
     width: 110px;
     height: 50px;
 }
@@ -52,13 +52,14 @@ background-size: cover;
 width:45%;
 height:400px;
 background-repeat: no-repeat;
+border-radius: 10px;
 
 }
 
 .container-details{
-height: 400px;
+height:430px;
 display:flex;
-column-gap: 70px;
+justify-content: space-around;
 
 }
 
@@ -68,17 +69,17 @@ column-gap: 70px;
 }
 
 .items{
+    height:420px;
     display: flex;
     flex-direction: column;
-    row-gap: 13px;
-
+    justify-content: space-between;
 }
 
 
 .information{
     font-size:30px;
     padding-left: 10px;
-    width:500px;
+    width:550px;
     height: 50px;
     background-color: #cc0000;
     border-radius: 10px;
@@ -86,18 +87,20 @@ column-gap: 70px;
 }
 
 #container-TS{
+    height: 450px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 video{
-    width: 45%;
+    width: 40%;
     height:390px;
+    display: flex;
 }
 
 #description{
-    width: 50%;
-    height:390px;
+    width: 45%;
+    height:300x;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,12 +139,12 @@ button:hover{
 }
 
 #cards-actor{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 35px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .actor{
+    width: 400px;
     height:600px;
     color: #FFF0F5;
     font-size:25px;
@@ -181,7 +184,7 @@ button:hover{
 }
 
 footer{
-    height:200px;
+    height:400px;
     font-size: 25px;
     display: flex;
     justify-content:space-between;
@@ -198,17 +201,21 @@ footer{
         display: none;
     }
     .navigation-footer{
-        display:block;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
     .container-details{
-        display: fle;
+        display: flex;
         flex-direction: column;
-        width:768px;
+        justify-content:space-around;
+        align-items: center;
+        width:100%;
         height: 850px;
     }
     #banner{
         background-image:url(imagens/banner-3.jpg);
-        width:100%;
+        width:90%;
         height:400px;
         background-size:cover;
     }
@@ -221,9 +228,11 @@ footer{
 
     .items{
         width: 95%;
+        height: 400px;
         display: flex;
         align-items: center;
         justify-content: center;
+        justify-content: space-between;
     }
     .information{
         width:95%;
@@ -233,7 +242,47 @@ footer{
     }
 
     #container-TS{
+        width: 100%;
+        height: 700px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
+    video{
+        width: 95%;
+        height: 350px;
+    }
+    #description{
+        width:95%;
+        height:350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;        
+    }
+    button{
+        width: 700px;
+        height: 50px;
+    }
+    #container-cards{
+        width: 100%;
+        height: 1900px;
+    }
+    #cards-actor{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+    .actor{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width:768px){
+
 }

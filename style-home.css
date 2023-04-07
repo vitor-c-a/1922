@@ -216,7 +216,7 @@ footer{
     }
     #banner{
         background-image:url(imagens/banner-3.jpg);
-        background-position: 5%;
+        background-position: 100%;
         width:90%;
         height:1005;
         background-size:cover;
@@ -286,6 +286,16 @@ footer{
     }
     footer{
         height: 400px;
+    }
+}
+
+@media(max-width:782px){
+    #banner{
+        width: 95%;
+        height: 1000px;
+        background-image: url(imagens/banner-vertical2.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
     }
 }
 

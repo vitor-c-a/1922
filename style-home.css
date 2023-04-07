@@ -292,10 +292,10 @@ footer{
 @media(max-width:782px){
     #banner{
         width: 95%;
-        height: 1000px;
-        background-image: url(imagens/banner-vertical2.jpg);
+        height: 520px;
+        background-image: url(imagens/banner-vertical3.png);
         background-size: cover;
-        background-position: 50% 50%;
+        background-position: 50% 40%;
     }
 }
 

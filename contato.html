@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-contato.css">
     <title>Contato</title>
 </head>
 <body>
+
+    <header>
+        <a href="contato.html">
+            <img class="logo" src="imagens/logo-png.png" alt="Logo do 1922">
+        </a>
+        <nav class="navigation-header">
+            <ul>
+                <a href="index.html">
+                    <li class="nav">Início</li>
+                </a>
+
+                <a href="elenco.html">
+                    <li class="nav">Elenco</li>
+                </a>
+
+                <a href="comentarios.html">
+                    <li class="nav">Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="title">     
+        <div class="presentatation">
+            <p>Envie um comentário sobre o site</p>
+        </div>
+    </div>
+
+    <div class="container-big">
+        <div class="container-average">
+
+            <div class="from">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="5f1817e3-8130-4bae-8524-af36b3efbd80">
+                    <input type="hidden" name="redirectTo" value="">
+
+                    <input type="text" placeholder="Nome" name="name">
+
+                    <input type="email" placeholder="Email" name="email">
+
+                    <textarea name="message" id="" cols="30" rows="5" placeholder="Digite seu comentário aqui"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img class="logo" src="imagens/logo-png.png" alt="Logo do 1922">
+        <span>Todos os direitos reservados©</span>
+        <span>Desenvolvido por : Vitor C. Araujo</span>
+
+        <nav>
+            <ul class="navigation-footer">
+                <a href="index.html">
+                    <li class="nav">Elenco</li>
+                </a>
+
+                <a href="comentarios.html">
+                    <li class="nav">Comentários</li>
+                </a>
+
+                <a href="contato.html">
+                    <li class="nav">Contato</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="contatos">
+            <a href="https://www.linkedin.com/in/vitor-camargo-7275b81a6/" target="_blank">
+                <div class="icone-linkedin"></div>
+            </a>
+            <a href="https://github.com/vitor-c-a" target="black">
+                <div class="icone-github"></div>
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>

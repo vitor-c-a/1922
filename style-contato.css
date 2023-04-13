@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family: 'Kanit', sans-serif;
+    list-style: none;
+    background-color: #000;
+    color:#FFF0F5;
+    border: none;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-bottom:1px solid #cc0000;
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 110px;
+    height: 50px;
+}
+
+.navigation-header{
+    width: 60%;
+}
+
+ul{
+    font-size:35px;
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+}
+
+.nav{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.nav:hover{
+    color: #cc0000;
+}
+
+.title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.presentation{
+    width: 500px;
+}
+
+p{
+    font-size: 40px;
+}
+
+.container-big{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-average{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: ce;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #FFF0F5;
+}
+
+input{
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+
+textarea{
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgba(102, 102, 102, 0.3);
+    border-radius: 10px;
+    width: 30%;
+    height: 55px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contatos{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.icone-linkedin{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-image: url(imagens/icone-linkedin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icone-github{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-image: url(imagens/icone-github2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #cc0000;
+    transform: scale(1.1);
+}
+
+footer{
+    border-top: 1px solid #cc0000;
+    height: 290px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation-footer{
+    display: none;
+}

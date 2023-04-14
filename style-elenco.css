@@ -79,6 +79,7 @@ ul{
     background-image:url(imagens/Wilfred-elenco.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 
@@ -86,37 +87,44 @@ ul{
     background-image:url(imagens/Arlette-elenco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 40% 50%;
 }
 
 .henry{
     background-image:url(imagens/Henry-elenco.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 .shannon{
     background-image: url(imagens/Shannon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 .harlan{
     background-image: url(imagens/Harlan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 .sheriff{
     background-image: url(imagens/Sheriff-Jones.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 .lester{
     background-image: url(imagens/Lester.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 15% 50%;
 }
 .lars{
     background-image: url(imagens/Lars.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 footer{
@@ -162,7 +170,18 @@ footer{
     display: none;
 }
 
-@media(max-width:1080px){
+@media(max-width:1024px){
+
+    .navigation-header{
+        display: none;
+    }
+    .elenco{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .actor{
+        height: 600px;
+    }
     footer{
         height: 400px;
     }
@@ -170,5 +189,22 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+}
+
+@media(max-width:768px){
+    .elenco{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .actor{
+        height: 900px;
+    }
+}
+
+@media(max-width:414px){
+    .actor{
+        height: 600px;
     }
 }

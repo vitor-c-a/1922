@@ -106,7 +106,7 @@ video{
 
 #description{
     width: 44%;
-    height: 390px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -148,10 +148,11 @@ button:hover{
 #cards-actor{
     display: flex;
     justify-content: space-around;
+    column-gap: 15px;
 }
 
 .actor{
-    width: 400px;
+    width: 100%;
     height:600px;
     color: #FFF0F5;
     font-size:25px;
@@ -252,7 +253,6 @@ footer{
     #banner{
         background-image:url(imagens/banner-3.jpg);
         width:90%;
-        height:1005;
         background-size:100% 100%;
     }
     .details{
@@ -327,9 +327,19 @@ footer{
 @media(max-width:782px){
     #banner{
         width: 95%;
-        height: 1000px;
-        background-image: url(imagens/banner-vertical3.png);
-        background-size: 100% 100%;
+        height:1000px;
+        background-image: url(imagens/banner-vertical.jpg);
+        background-size: cover;
         background-position: 50% 40%;
+    }
+}
+
+@media(max-width:550px){
+    .information{
+        font-size: 20px;
+    }
+    #banner{
+        height: 800px;
+        background-size: 100% 100%;
     }
 }
